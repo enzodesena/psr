@@ -8,15 +8,11 @@ Python module to generate Perceptual Soundfield Reconstruction (PSR) directivity
 
 ## Getting Started
 
-### Prerequisites
+### Prerequisites and installation
 
-What things you need to install the software and how to install them
+There is no need for non-core modules. No need to install: just clone/download and you are ready to go!
 
-```
-Give examples
-```
-
-## Example
+### Example
 
 ```python
 import numpy as np
@@ -43,7 +39,7 @@ plot_trig_directivity(coeffs)
 plt.show()
 ```
 
-## Running the tests
+### Running the tests
 
 Run `python psr_tests.py`.
 
