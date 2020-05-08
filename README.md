@@ -61,9 +61,3 @@ The python software was written by Enzo De Sena while a Lecturer (Assistan Profe
 ## License
 
 This project is licensed under the GNU GPL v3.0 License - see the [LICENSE](LICENSE) file for details. Also notice that parts of the code are protected under USPTO patent n. 8,976,977.
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
