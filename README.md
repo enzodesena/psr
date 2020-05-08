@@ -1,9 +1,9 @@
 # Perceptual Soundfield Reconstruction (PSR)
-Python module to generate Perceptual Soundfield Reconstruction (PSR) directivity patterns and its higher-order approximations as described in: E. De Sena, H. Hacıhabiboğlu, and Z. Cvetković, "Analysis and Design of Multichannel Systems for Perceptual Sound Field Reconstruction," IEEE Trans. on Audio, Speech and Language Process., vol. 21 , no. 8, pp 1653-1665, Aug. 2013.
+Python module to generate Perceptual Soundfield Reconstruction (PSR) directivity patterns and its higher-order approximations as described in [1]: E. De Sena, H. Hacıhabiboğlu, and Z. Cvetković, "Analysis and Design of Multichannel Systems for Perceptual Sound Field Reconstruction," IEEE Trans. on Audio, Speech and Language Process., vol. 21 , no. 8, pp 1653-1665, Aug. 2013.
 
+As opposed to the original paper, this code uses Williams psychoacoustic curves instead of Fransen psychoacoustic curves. The latter is considered useful for qualitative analysis only (see [3]). The two curves approximately intersect for inter-channel time differences (ICTDs) corresponding to an array radius of 15.5 cm, i.e. the case considered in [1]. 
 
-**Please notice that parts of this code are protected by USPTO patent H. Hacihabiboglu, E. De Sena, and Z. Cvetkovic, "Microphone array", US Patent n. 8,976,977, filed 15/10/2010, granted 10/3/2015.**
-**If you'd like to use this software for any reason other than non-commercial research purposes, please contact enzodesena AT gmail DOT com**
+**Please notice that parts of this code are protected by USPTO patent n. 8,976,977 [2]. If you'd like to use this software for any reason other than non-commercial research purposes, please contact enzodesena AT gmail DOT com**
 
 
 ## Getting Started
@@ -46,12 +46,19 @@ Run `python psr_tests.py`.
 
 ## Authors
 
-The work to develop PSR was carried out by E. De Sena, H. Hacıhabiboğlu, and Z. Cvetković while they were at King's College London (UK) with support by EPSRC Grant EP/F001142/1, and was published in: 
-E. De Sena, H. Hacıhabiboğlu, and Z. Cvetković, "Analysis and Design of Multichannel Systems for Perceptual Sound Field Reconstruction," IEEE Trans. on Audio, Speech and Language Process., vol. 21 , no. 8, pp 1653-1665, Aug. 2013.
+The work to develop PSR was carried out by E. De Sena, H. Hacıhabiboğlu, and Z. Cvetković while they were at King's College London (UK) with support by EPSRC Grant EP/F001142/1, and was published in [1].
 
 The python software was written by Enzo De Sena while a Lecturer (Assistan Professor) at the University of Surrey. 
 
 * **Enzo De Sena** - [desena.org](https://desena.org)
+
+## References
+
+[1] E. De Sena, H. Hacıhabiboğlu, and Z. Cvetković, "Analysis and Design of Multichannel Systems for Perceptual Sound Field Reconstruction," IEEE Trans. on Audio, Speech and Language Process., vol. 21 , no. 8, pp 1653-1665, Aug. 2013.
+
+[2] USPTO patent H. Hacihabiboglu, E. De Sena, and Z. Cvetkovic, "Microphone array", US Patent n. 8,976,977, filed 15/10/2010, granted 10/3/2015
+
+[3] J. Blauert, Spatial Hearing: The Psychophysics of Human Sound Localization. Cambridge, MA, USA: MIT Press, 1997.
 
 
 ## License
