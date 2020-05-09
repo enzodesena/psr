@@ -17,11 +17,10 @@ There is no need for non-core modules. No need to install: just clone/download a
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
-from psr import PsrMicrophone
-from psr import plot_trig_directivity
+import psr
 
 # Generates a PSR microphone with radius 15.5 cm and base angle 2pi/5 (74 deg)
-mic = PsrMicrophone(0.155, 2*np.pi/5)
+mic = psr.PsrMicrophone(0.155, 2*np.pi/5)
 
 # Plots the ideal PSR directivity pattern
 mic.plot_directivity()
@@ -33,7 +32,7 @@ print("Optimal coefficients:")
 print(coeffs)
 
 # Overlays the 2nd-order approximation directivity pattern with the ideal one
-plot_trig_directivity(coeffs)
+psr.plot_trig_directivity(coeffs)
 
 # Show plots
 plt.show()
