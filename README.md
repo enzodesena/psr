@@ -1,8 +1,6 @@
 # Perceptual Soundfield Reconstruction (PSR)
 Python module to generate Perceptual Soundfield Reconstruction (PSR) directivity patterns and its higher-order approximations as described in [1]: E. De Sena, H. Hacıhabiboğlu, and Z. Cvetković, "Analysis and Design of Multichannel Systems for Perceptual Sound Field Reconstruction," IEEE Trans. on Audio, Speech and Language Process., vol. 21 , no. 8, pp 1653-1665, Aug. 2013.
 
-As opposed to the original paper, this code uses Williams psychoacoustic curves instead of Fransen psychoacoustic curves. The latter is considered useful for qualitative analysis only (see [3]). The two curves approximately intersect for inter-channel time differences (ICTDs) corresponding to an array radius of 15.5 cm, i.e. the case considered in [1]. 
-
 **Please notice that parts of this code are protected by USPTO patent n. 8,976,977 [2]. If you'd like to use this software for any reason other than non-commercial research purposes, please contact enzodesena AT gmail DOT com**
 
 
@@ -42,6 +40,11 @@ plt.show()
 
 Run `python psr_tests.py`.
 
+
+
+## Technical note
+
+As opposed to the original paper, this code uses Williams psychoacoustic curves instead of Fransen psychoacoustic curves. The latter is considered useful for qualitative analysis only (see [3]). The two curves approximately intersect for inter-channel time differences (ICTDs) corresponding to an array radius of 15.5 cm, i.e. the case considered in [1]. 
 
 ## Authors
 
