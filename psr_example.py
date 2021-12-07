@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import psr
 
-# Generates a PSR microphone with radius 15.5 cm and base angle 2pi/5 (74 deg)
+# Generates a PSR microphone with radius 15.5 cm and base angle 2pi/5 (72 deg)
 mic = psr.PsrMicrophone(0.155, 2*np.pi/5)
 
 # Plots the ideal PSR directivity pattern
